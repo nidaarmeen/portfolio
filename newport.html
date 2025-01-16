@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline
+        }.container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            text-align: center;
+            margin: 2rem 0;;
+        }
+        .hero img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin: 1rem 0;
+        }
+        .about, .projects, .contact {
+            margin-bottom: 2rem;
+        }
+        .projects img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .projects .project {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="hero">
+            <img src="port photo.jpg" alt="Profile Picture">
+            <h1>Hello, I'm Nida Armeen</h1>
+            <p>BCA Student passionate about programming, web development, and creating innovative solutions.</p>
+        </section>
+        <section id="Home" class="Home">
+            <h2>Home</h2>
+        </section>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I am currently pursuing a Bachelor of Computer Applications (BCA). I enjoy coding and solving real-world problems through technology. I have experience in languages like Python, JavaScript, and C++ and am interested in full-stack development, data analysis, and artificial intelligence.</p>
+        </section>
+        <section id="hobbies" class="hobbies">
+            <h2>hobbies</h2>
+            <div class="hobbies">
+                <p>hobbies are like singing watching movies and playing shuttle cock</p>
+                <h3>Skills</h3>
+                <p>languages known: English,hindi,kannada</p>
+            </div>
+        </section>
+        <section id="media" class="media">
+            <h2>Media</h2>
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="audio-file.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <h3>Video</h3>
+            <video controls width="600">
+                <source src="Evil Dead (2013) Hindi Dubbed 720P.mkv" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via email at <a href="mailto:youremail@example.com">nidaarmeen66@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nida Armeen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
